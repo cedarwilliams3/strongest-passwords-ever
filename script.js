@@ -19,11 +19,11 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword () { 
-const passwordLength= prompt ("enter the password length")  
-const isUppercase= confirm ("do you want uppercase characters")
-const isLowercase= confirm ("do you want lowercase characters")
-const isNumbers= confirm ("do you want numbers")
-const isSymbols= confirm ("do you want symbols")
+const passwordLength= prompt ("Enter password length between 8 and 128 characters")  
+const isUppercase= confirm ("Do you want uppercase characters?")
+const isLowercase= confirm ("Do you want lowercase characters?")
+const isNumbers= confirm ("Do you want numbers?")
+const isSymbols= confirm ("Do you want symbols?")
 console.log (isSymbols)
 console.log (isNumbers)
 console.log (isLowercase)
